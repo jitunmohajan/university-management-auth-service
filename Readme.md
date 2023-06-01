@@ -144,3 +144,11 @@ step 11: yarn add -D eslint-config-prettier
 ```
 
 # husky setup
+
+step 1: yarn add husky --dev
+step 2: yarn husky install
+step 3: yarn husky add .husky/pre-commit "npm test"
+```
+// add this on .husky/pre-commit
+yarn lint:check
+```
