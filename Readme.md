@@ -152,3 +152,25 @@ step 3: yarn husky add .husky/pre-commit "npm test"
 // add this on .husky/pre-commit
 yarn lint:check
 ```
+
+step 4: add this on script on pakage.json 
+```javascript
+"lint-prettier": "yarn lint:check && yarn prettier:check",
+```
+
+step 5: yarn add -D lint-staged
+
+add this to pakage.json
+
+```javascript
+
+"lint-staged": {
+    "src/**/*.ts": "yarn lint-prettier"
+},
+```
+
+step 6: change on .husky/pre-commit 
+```
+// add this on .husky/pre-commit
+yarn lint-staged
+```
