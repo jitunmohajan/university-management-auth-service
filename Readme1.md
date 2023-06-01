@@ -1,28 +1,7 @@
-## Initialize setup
-
-firstly add .gitignore file then add this code and if you need to ignore more then add those files also in the file
-
-```
-node_modules
-.env
-```
-
-step 1: instead of index.ts use src/server.ts
-```bash
-npm init
-```
-step 2. 
-```bash
-yarn add -D typescript
-```
-step 3. 
-```bash
-yarn add express mongoose
-```
-step 4. 
-```bash
-tsc --init
-```
+1. npm init
+2. yarn add -D typescript
+3. yarn add express mongoose
+4. tsc --init
 
 ```javascript
 // change file path to
@@ -30,31 +9,16 @@ tsc --init
 "outDir": "./dist",
 ```
 
-step 5. 
-```bash
-yarn add @types/express
-```
-step 6.  
-```bash
-yarn add dotenv
-```
-step 7. 
-```bash
-yarn add ts-node-dev --dev
-```
-step 8. add this on pakage.json in script>
+5. yarn add @types/express
+6.  yarn add dotenv
+7. yarn add ts-node-dev --dev
+8. add this on pakage.json in script>
 ```javascript
 "start": "ts-node-dev --respawn --transpile-only src/server.ts",
 ```
 
-step 9. 
-```bash
-yarn add cors
-```
-step 10. 
-```bash
-yarn add -D @types/cors
-```
+9. yarn add cors
+10. yarn add -D @types/cors
 
 ## typescript eslint prettier setup 
 
@@ -69,11 +33,8 @@ step 1: add this to your tscofig.json file
 
 ```
 
-step 2: 
+step 2: yarn add eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin --save-dev
 
-```bash
-yarn add eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin --save-dev
-```
 step 3: create .eslintrc file and add this code ..  search on google "current ecma version" and change this ecmaVersion
 
 ```javascript
@@ -104,7 +65,10 @@ step 3: create .eslintrc file and add this code ..  search on google "current ec
 step 4: add this on pakage.json  on script
 
 ```javascript
+"lint": "eslint --ext .js,.ts .",
+or
 "lint:check": "eslint --ext .js,.ts .",
+
 ```
 
 step 5: create a .eslintignore file add this in you code
@@ -121,10 +85,8 @@ step 6: change lint or lint:check
 "lint": "eslint --ignore-path .eslintignore --ext .js,.ts ."
 ```
 
-step 7: 
-```bash
-yarn add -D prettier
-```
+step 7: yarn add -D prettier
+
 step 8: create .prettierrc file
 
 ```javascript
@@ -183,21 +145,9 @@ step 11: yarn add -D eslint-config-prettier
 
 # husky setup
 
->> before setup push your project on github otherwise it will not work properly
-
-step 1: 
-```bash
-yarn add husky --dev
-```
-step 2: 
-```bash
-yarn husky install
-```
-step 3: 
-```
-yarn husky add .husky/pre-commit "npm test"
-```
-
+step 1: yarn add husky --dev
+step 2: yarn husky install
+step 3: yarn husky add .husky/pre-commit "npm test"
 ```
 // add this on .husky/pre-commit
 yarn lint:check
@@ -208,10 +158,7 @@ step 4: add this on script on pakage.json
 "lint-prettier": "yarn lint:check && yarn prettier:check",
 ```
 
-step 5: 
-```bash
-yarn add -D lint-staged
-```
+step 5: yarn add -D lint-staged
 
 add this to pakage.json
 
