@@ -99,7 +99,7 @@ step 8: create .prettierrc file
 
 step 9: add this on pakage.json on script
 ```javascript
-"prettier:check":"yarn prettier --write .",
+"prettier:check":"prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json)\"",
 ```
 
 for using prettier in specefic code file use this cmd
@@ -107,3 +107,40 @@ for using prettier in specefic code file use this cmd
 ```
 yarn prettier --write src/app.ts
 ```
+
+step 10: add this on setting.json on vscode
+
+```javascript
+"[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+},
+"editor.formatOnSave": true,
+```
+
+step 11: yarn add -D eslint-config-prettier
+
+```javascript
+// .eslintrc paste the code instead of previous code
+{
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": 12,
+    "sourceType": "module",
+  },
+  "plugins": ["@typescript-eslint"],
+  // HERE
+  "extends": ["eslint:recommended", "plugin:@typescript-eslint/recommended", "prettier"],
+
+  "rules": {
+    "@typescript-eslint/no-unused-vars": "error",
+    "@typescript-eslint/consistent-type-definitions": ["error", "type"],
+  },
+
+  "env": {
+    "browser": true,
+    "es2021": true
+  }
+}
+```
+
+# husky setup
