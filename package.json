@@ -17,7 +17,6 @@
   "lint-staged": {
     "src/**/*.ts": "yarn lint-prettier"
   },
-  
   "devDependencies": {
     "@types/cors": "^2.8.13",
     "eslint-config-prettier": "^8.8.0",

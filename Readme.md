@@ -234,3 +234,7 @@ step 7: add this on script on pakage.json
 "lint:fix": "eslint . --fix",
 "prettier:fix": "prettier --write .",
 ```
+
+```
+yarn start
+```
