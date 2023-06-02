@@ -238,3 +238,35 @@ step 7: add this on script on pakage.json
 ```
 yarn start
 ```
+
+
+## setup logger
+
+step 1: paste the code instead of previous code on.eslintrc
+```javascript
+// .eslintrc
+{
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": 12,
+    "sourceType": "module",
+  },
+  "plugins": ["@typescript-eslint"],
+  // HERE
+  "extends": ["eslint:recommended", "plugin:@typescript-eslint/recommended", "prettier"],
+
+  "rules": {
+    "no-unused-vars": "error",
+    "no-console":"error",
+    "no-undef":"error",
+    "no-unused-expressions":"error",
+    "no-unreachable":"error",
+    "consistent-type-definitions": ["error", "type"]
+  },
+
+  "env": {
+    "browser": true,
+    "es2021": true
+  }
+}
+```
