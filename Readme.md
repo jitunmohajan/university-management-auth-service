@@ -280,24 +280,26 @@ step 1: paste the code instead of previous code on .eslintrc
     "sourceType": "module"
   },
   "plugins": ["@typescript-eslint"],
-  // HERE
-  "extends": ["eslint:recommended", "plugin:@typescript-eslint/recommended", "prettier"],
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "prettier"
+  ],
   "rules": {
     "no-unused-vars": "error",
-    "no-console":"error",
-    "no-undef":"error",
-    "no-unused-expressions":"error",
-    "no-unreachable":"error",
-    "consistent-type-definitions": ["error", "type"]
+    "prefer-const": "error",
+    "no-unused-expressions": "error",
+    "no-undef": "error",
+    "no-console": "warn",
+    "@typescript-eslint/consistent-type-definitions": ["error", "type"]
   },
-
   "env": {
     "browser": true,
     "es2021": true,
-    "node": true
+    "node":true
   },
-  "globals":{
-    "process": "readonly",
+  "globals": {
+    "process":"readonly"
   }
 }
 ```
