@@ -1,21 +1,26 @@
-import express, { Application, Request, Response } from 'express'
-import cors from 'cors'
-import usersRouter from './app/modulers/users/users.route'
-const app: Application = express()
+import express, { Application } from 'express';
+import cors from 'cors';
+import { UserRoutes } from './app/modulers/user/user.route';
+import globalErrorHandler from './app/middlewares/globalErrorHandler';
+// import ApiError from './errors/ApiError'
+const app: Application = express();
 // const port = 3000
 
-app.use(cors())
+app.use(cors());
 
 // parser
-app.use(express.json())
-app.use(express.urlencoded({ extended: true }))
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
 
 // Application routes
-app.use('/api/v1/users/', usersRouter)
+app.use('/api/v1/users/', UserRoutes);
 
 // testing server
-app.get('/', async (req: Request, res: Response) => {
-  res.send('Working successfully')
-})
+// app.get('/', async(req: Request, res: Response, next:NextFunction) => {
+//    throw new Error('Testing Error logger');
+// })
 
-export default app
+// globall error
+app.use(globalErrorHandler);
+
+export default app;
