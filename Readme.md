@@ -466,3 +466,10 @@ step 1:
 yarn add zod
 ```
 
+
+## Http Status code
+
+step 1: 
+```
+yarn add http-status
+```
