@@ -1,85 +1,85 @@
 {
-    "keep": {
-        "days": true,
-        "amount": 14
+  "keep": {
+    "days": true,
+    "amount": 14
+  },
+  "auditLog": "C:\\Users\\jitun\\Desktop\\PH Level 2\\university-management-auth-service\\logs\\winston\\errors\\.ed9e34634d7f4d40b83881336fee0a604a119e0d-audit.json",
+  "files": [
+    {
+      "date": 1686152359283,
+      "name": "C:\\Users\\jitun\\Desktop\\PH Level 2\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-07-06-21-error.log",
+      "hash": "fcd8204fc89b406f89a000e3567d2a58dd27cbadea82c088b2bdf766a43d9095"
     },
-    "auditLog": "C:\\Users\\jitun\\Desktop\\PH Level 2\\university-management-auth-service\\logs\\winston\\errors\\.ed9e34634d7f4d40b83881336fee0a604a119e0d-audit.json",
-    "files": [
-        {
-            "date": 1686152359283,
-            "name": "C:\\Users\\jitun\\Desktop\\PH Level 2\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-07-06-21-error.log",
-            "hash": "fcd8204fc89b406f89a000e3567d2a58dd27cbadea82c088b2bdf766a43d9095"
-        },
-        {
-            "date": 1686153984651,
-            "name": "C:\\Users\\jitun\\Desktop\\PH Level 2\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-07-06-22-error.log",
-            "hash": "21a06935893a3bd15c0acb14d66a4447db4335ddf2fe11aaf0ee5a805c7db7a4"
-        },
-        {
-            "date": 1686289008571,
-            "name": "C:\\Users\\jitun\\Desktop\\PH Level 2\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-09-06-11-error.log",
-            "hash": "03035f3a1a14f3ebecd26ce1a614ba82a15d653d945ca0c8515f56af6335851b"
-        },
-        {
-            "date": 1686327529803,
-            "name": "C:\\Users\\jitun\\Desktop\\PH Level 2\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-09-06-22-error.log",
-            "hash": "9c7e2aa158e8dc4b3c001096cff454aed3343a0d5d1b4409699a58dd9b474f8d"
-        },
-        {
-            "date": 1686463588948,
-            "name": "C:\\Users\\jitun\\Desktop\\PH Level 2\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-11-06-12-error.log",
-            "hash": "c6837c1e3db6401a26ed5f18a40055de752b792c3bba6dd0c7a13a39296c794e"
-        },
-        {
-            "date": 1686803224605,
-            "name": "C:\\Users\\jitun\\Desktop\\PH Level 2\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-15-06-10-error.log",
-            "hash": "0b3321628e968c48d72b1af16aefb8621182dfcc9c15f6e042bbc3382e6bf88e"
-        },
-        {
-            "date": 1686805929460,
-            "name": "C:\\Users\\jitun\\Desktop\\PH Level 2\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-15-06-11-error.log",
-            "hash": "2e9975d0019db8742452d920029ec92538dd903bd87dc07d38de78e796e2aecf"
-        },
-        {
-            "date": 1686809349991,
-            "name": "C:\\Users\\jitun\\Desktop\\PH Level 2\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-15-06-12-error.log",
-            "hash": "3adc45fca6f0a74810f3fa57e150258909a249efb60249e54d2be1a0698f2f41"
-        },
-        {
-            "date": 1686837277616,
-            "name": "C:\\Users\\jitun\\Desktop\\PH Level 2\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-15-06-19-error.log",
-            "hash": "7e035c9815e3a618f96e504cfa1fd44f353b0215fb84acbba55c6fab39da278d"
-        },
-        {
-            "date": 1686896391280,
-            "name": "C:\\Users\\jitun\\Desktop\\PH Level 2\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-16-06-12-error.log",
-            "hash": "5b968d6419f8a339847043dfdc5734332aa2fdf9ba9d544b2690e0a8d984bb40"
-        },
-        {
-            "date": 1686922525160,
-            "name": "C:\\Users\\jitun\\Desktop\\PH Level 2\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-16-06-19-error.log",
-            "hash": "68655306597fc2a01e9f0d3cfd3db91adb94775ce5239fb0c81350c4291488a0"
-        },
-        {
-            "date": 1686930793058,
-            "name": "C:\\Users\\jitun\\Desktop\\PH Level 2\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-16-06-21-error.log",
-            "hash": "9e8698f83c339a4b53e24cb74d326e810198733f0aae38e1510b19309cf2942c"
-        },
-        {
-            "date": 1686978477348,
-            "name": "C:\\Users\\jitun\\Desktop\\PH Level 2\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-17-06-11-error.log",
-            "hash": "b06d1a9f1aa6781aeca41a9ac63c158c2c01f190a0015e10cffe76529e4444ea"
-        },
-        {
-            "date": 1686987212445,
-            "name": "C:\\Users\\jitun\\Desktop\\PH Level 2\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-17-06-13-error.log",
-            "hash": "4ec74754319918c4151c6e1a184bb45829b15a66647499785e599c28da0d0728"
-        },
-        {
-            "date": 1686989190203,
-            "name": "C:\\Users\\jitun\\Desktop\\PH Level 2\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-17-06-14-error.log",
-            "hash": "716fc42958e70ac251b2940a2dc22f3767f4de0743298448f721c93f2dbe8dc4"
-        }
-    ],
-    "hashType": "sha256"
+    {
+      "date": 1686153984651,
+      "name": "C:\\Users\\jitun\\Desktop\\PH Level 2\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-07-06-22-error.log",
+      "hash": "21a06935893a3bd15c0acb14d66a4447db4335ddf2fe11aaf0ee5a805c7db7a4"
+    },
+    {
+      "date": 1686289008571,
+      "name": "C:\\Users\\jitun\\Desktop\\PH Level 2\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-09-06-11-error.log",
+      "hash": "03035f3a1a14f3ebecd26ce1a614ba82a15d653d945ca0c8515f56af6335851b"
+    },
+    {
+      "date": 1686327529803,
+      "name": "C:\\Users\\jitun\\Desktop\\PH Level 2\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-09-06-22-error.log",
+      "hash": "9c7e2aa158e8dc4b3c001096cff454aed3343a0d5d1b4409699a58dd9b474f8d"
+    },
+    {
+      "date": 1686463588948,
+      "name": "C:\\Users\\jitun\\Desktop\\PH Level 2\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-11-06-12-error.log",
+      "hash": "c6837c1e3db6401a26ed5f18a40055de752b792c3bba6dd0c7a13a39296c794e"
+    },
+    {
+      "date": 1686803224605,
+      "name": "C:\\Users\\jitun\\Desktop\\PH Level 2\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-15-06-10-error.log",
+      "hash": "0b3321628e968c48d72b1af16aefb8621182dfcc9c15f6e042bbc3382e6bf88e"
+    },
+    {
+      "date": 1686805929460,
+      "name": "C:\\Users\\jitun\\Desktop\\PH Level 2\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-15-06-11-error.log",
+      "hash": "2e9975d0019db8742452d920029ec92538dd903bd87dc07d38de78e796e2aecf"
+    },
+    {
+      "date": 1686809349991,
+      "name": "C:\\Users\\jitun\\Desktop\\PH Level 2\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-15-06-12-error.log",
+      "hash": "3adc45fca6f0a74810f3fa57e150258909a249efb60249e54d2be1a0698f2f41"
+    },
+    {
+      "date": 1686837277616,
+      "name": "C:\\Users\\jitun\\Desktop\\PH Level 2\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-15-06-19-error.log",
+      "hash": "7e035c9815e3a618f96e504cfa1fd44f353b0215fb84acbba55c6fab39da278d"
+    },
+    {
+      "date": 1686896391280,
+      "name": "C:\\Users\\jitun\\Desktop\\PH Level 2\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-16-06-12-error.log",
+      "hash": "5b968d6419f8a339847043dfdc5734332aa2fdf9ba9d544b2690e0a8d984bb40"
+    },
+    {
+      "date": 1686922525160,
+      "name": "C:\\Users\\jitun\\Desktop\\PH Level 2\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-16-06-19-error.log",
+      "hash": "68655306597fc2a01e9f0d3cfd3db91adb94775ce5239fb0c81350c4291488a0"
+    },
+    {
+      "date": 1686930793058,
+      "name": "C:\\Users\\jitun\\Desktop\\PH Level 2\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-16-06-21-error.log",
+      "hash": "9e8698f83c339a4b53e24cb74d326e810198733f0aae38e1510b19309cf2942c"
+    },
+    {
+      "date": 1686978477348,
+      "name": "C:\\Users\\jitun\\Desktop\\PH Level 2\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-17-06-11-error.log",
+      "hash": "b06d1a9f1aa6781aeca41a9ac63c158c2c01f190a0015e10cffe76529e4444ea"
+    },
+    {
+      "date": 1686987212445,
+      "name": "C:\\Users\\jitun\\Desktop\\PH Level 2\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-17-06-13-error.log",
+      "hash": "4ec74754319918c4151c6e1a184bb45829b15a66647499785e599c28da0d0728"
+    },
+    {
+      "date": 1686989190203,
+      "name": "C:\\Users\\jitun\\Desktop\\PH Level 2\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-17-06-14-error.log",
+      "hash": "716fc42958e70ac251b2940a2dc22f3767f4de0743298448f721c93f2dbe8dc4"
+    }
+  ],
+  "hashType": "sha256"
 }

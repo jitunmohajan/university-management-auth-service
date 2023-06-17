@@ -4,7 +4,7 @@ type IApiReponse<T> = {
   statusCode: number;
   success: boolean;
   message?: string | null;
-  meta: {
+  meta?: {
     page: number;
     limit: number;
     total: number;
@@ -17,7 +17,7 @@ const sendReponse = <T>(res: Response, data: IApiReponse<T>): void => {
     statusCode: data.statusCode,
     success: data.success,
     message: data.message || null,
-    meta: data.meta || null,
+    meta: data.meta || null || undefined,
     data: data.data || null,
   };
 
