@@ -94,6 +94,11 @@
             "date": 1687180326753,
             "name": "C:\\Users\\jitun\\Desktop\\PH Level 2\\university-management-auth-service\\logs\\winston\\success\\phu-2023-19-06-19-success.log",
             "hash": "de313bc1eb3d43c70c3128a2018580285c3f2551eeed42e57d1e7a082023337e"
+        },
+        {
+            "date": 1687324974510,
+            "name": "C:\\Users\\jitun\\Desktop\\PH Level 2\\university-management-auth-service\\logs\\winston\\success\\phu-2023-21-06-11-success.log",
+            "hash": "2ad3908d90819dc30e2a3084cdfb28a149b9e79d27b147dabe26de004980fcc6"
         }
     ],
     "hashType": "sha256"
