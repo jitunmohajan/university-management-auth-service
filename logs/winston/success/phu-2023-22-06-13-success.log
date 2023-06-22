@@ -1,0 +1,12 @@
+{
+  message: 'database connection established',
+  level: 'info',
+  label: 'right meow!',
+  timestamp: '2023-06-22T07:59:26.058Z'
+}
+{
+  message: 'Example app listening on port 5000',
+  level: 'info',
+  label: 'right meow!',
+  timestamp: '2023-06-22T07:59:26.068Z'
+}

@@ -99,6 +99,16 @@
             "date": 1687413812836,
             "name": "C:\\Users\\jitun\\Desktop\\PH Level 2\\university-management-auth-service\\logs\\winston\\success\\phu-2023-22-06-12-success.log",
             "hash": "3b18a02bb5269b9ce029ed6f369f79c8a54e1781c4be7f6425971df2aa27b5fe"
+        },
+        {
+            "date": 1687420761550,
+            "name": "C:\\Users\\jitun\\Desktop\\PH Level 2\\university-management-auth-service\\logs\\winston\\success\\phu-2023-22-06-13-success.log",
+            "hash": "296538196894f0da1744f3756aa79319d0ca1b52ab46a192e86c0d8b22b2596b"
+        },
+        {
+            "date": 1687421089032,
+            "name": "C:\\Users\\jitun\\Desktop\\PH Level 2\\university-management-auth-service\\logs\\winston\\success\\phu-2023-22-06-14-success.log",
+            "hash": "875507979193e26d07096015bd5cc7faa136c04b380e5025d483bd5f26b49aec"
         }
     ],
     "hashType": "sha256"
