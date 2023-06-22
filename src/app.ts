@@ -1,32 +1,26 @@
-import express, { Application, NextFunction, Request, Response } from 'express';
 import cors from 'cors';
+import express, { Application, NextFunction, Request, Response } from 'express';
+import httpStatus from 'http-status';
 import globalErrorHandler from './app/middlewares/globalErrorHandler';
 import routes from './app/routes';
-import httpStatus from 'http-status';
-// import { generateUserId } from './app/modulers/user/user.utils';
-
-// import ApiError from './errors/ApiError'
 const app: Application = express();
-// const port = 3000
 
 app.use(cors());
 
-// parser
+//parser
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-// Application routes
 // app.use('/api/v1/users/', UserRoutes);
-// app.use('/api/v1/academic-semesteres', AcademicSemesterRoutes);
-
+// app.use('/api/v1/academic-semesters', AcademicSemesterRoutes);
 app.use('/api/v1', routes);
 
-// testing server
-// app.get('/', async(req: Request, res: Response, next:NextFunction) => {
-//    throw new Error('Testing Error logger');
+//Testing
+// app.get('/', async (req: Request, res: Response, next: NextFunction) => {
+//   throw new Error('Testing Error logger')
 // })
 
-// globall error
+//global error handler
 app.use(globalErrorHandler);
 
 //handle not found
@@ -43,18 +37,5 @@ app.use((req: Request, res: Response, next: NextFunction) => {
   });
   next();
 });
-
-// testing code
-
-// const academicSemester = {
-//   code: '01',
-//   year: '2025',
-// };
-
-// const testId = async () => {
-//   const testing = generateUserId(academicSemester);
-//   console.log(testing);
-// };
-// testId();
 
 export default app;
