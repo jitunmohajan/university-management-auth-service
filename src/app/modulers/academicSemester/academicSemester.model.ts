@@ -1,10 +1,10 @@
+import status from 'http-status';
 import { Schema, model } from 'mongoose';
+import ApiError from '../../../errors/ApiError';
 import {
   AcademicSemesterModel,
   IAcademicSemester,
-} from './academicSemester.inteface';
-import status from 'http-status';
-import ApiError from '../../../errors/ApiError';
+} from './academicSemester.interface';
 
 const Month = [
   'January',

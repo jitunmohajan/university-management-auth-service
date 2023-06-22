@@ -1,26 +1,27 @@
 /* eslint-disable no-unused-expressions */
 /* eslint-disable no-console */
-import { Request, Response } from 'express';
-import { ErrorRequestHandler } from 'express';
-import config from '../../config/index';
-import { IGenericErrorMessage } from '../../interfaces/error';
-import handleValidationError from '../../errors/handleValidationError';
+import { ErrorRequestHandler, Request, Response } from 'express';
+import config from '../../config';
 import ApiError from '../../errors/ApiError';
-import { errorlogger } from '../../shared/logger';
+import handleValidationError from '../../errors/handleValidationError';
+
 import { ZodError } from 'zod';
-import handleZodError from '../../errors/handleZodError';
 import handleCastError from '../../errors/handleCastError';
+import handleZodError from '../../errors/handleZodError';
+import { IGenericErrorMessage } from '../../interfaces/error';
+import { errorlogger } from '../../shared/logger';
+
 const globalErrorHandler: ErrorRequestHandler = (
   error,
   req: Request,
   res: Response
 ) => {
   config.env === 'development'
-    ? console.log('globalErrorHandler ~', error)
-    : errorlogger.error('globalErrorHandler ~', error);
+    ? console.log(`🐱‍🏍 globalErrorHandler ~~`, { error })
+    : errorlogger.error(`🐱‍🏍 globalErrorHandler ~~`, error);
 
   let statusCode = 500;
-  let message = 'Something went wrong';
+  let message = 'Something went wrong !';
   let errorMessages: IGenericErrorMessage[] = [];
 
   if (error?.name === 'ValidationError') {
@@ -39,9 +40,9 @@ const globalErrorHandler: ErrorRequestHandler = (
     message = simplifiedError.message;
     errorMessages = simplifiedError.errorMessages;
   } else if (error instanceof ApiError) {
-    statusCode = error.statusCode;
+    statusCode = error?.statusCode;
     message = error.message;
-    errorMessages = error.message
+    errorMessages = error?.message
       ? [
           {
             path: '',
@@ -51,7 +52,7 @@ const globalErrorHandler: ErrorRequestHandler = (
       : [];
   } else if (error instanceof Error) {
     message = error?.message;
-    errorMessages = error.message
+    errorMessages = error?.message
       ? [
           {
             path: '',

@@ -1,11 +1,11 @@
 import { Request, Response } from 'express';
-import { AcademicSemesterService } from './academicSemester.service';
-import catchAsync from '../../../shared/catchAsync';
-import { IAcademicSemester } from './academicSemester.inteface';
 import httpStatus from 'http-status';
-import sendResponse from '../../../shared/sendResponse';
-import pick from '../../../shared/pick';
 import { paginationFields } from '../../../constants/pagination';
+import catchAsync from '../../../shared/catchAsync';
+import pick from '../../../shared/pick';
+import sendResponse from '../../../shared/sendResponse';
+import { IAcademicSemester } from './academicSemester.interface';
+import { AcademicSemesterService } from './academicSemester.service';
 
 const createSemester = catchAsync(async (req: Request, res: Response) => {
   const { ...academicSemesterData } = req.body;
