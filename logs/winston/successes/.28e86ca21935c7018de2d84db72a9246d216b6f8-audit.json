@@ -1,15 +1,15 @@
 {
-    "keep": {
-        "days": true,
-        "amount": 14
-    },
-    "auditLog": "C:\\Users\\jitun\\Desktop\\PH Level 2\\university-management-auth-service - Copy\\logs\\winston\\successes\\.28e86ca21935c7018de2d84db72a9246d216b6f8-audit.json",
-    "files": [
-        {
-            "date": 1687421776802,
-            "name": "C:\\Users\\jitun\\Desktop\\PH Level 2\\university-management-auth-service - Copy\\logs\\winston\\successes\\phu-2023-22-06-14-success.log",
-            "hash": "1e3f06d428e9c199c4800640a1e82142c2100416281c58426d8584daa5e1589d"
-        }
-    ],
-    "hashType": "sha256"
+  "keep": {
+    "days": true,
+    "amount": 14
+  },
+  "auditLog": "C:\\Users\\jitun\\Desktop\\PH Level 2\\university-management-auth-service - Copy\\logs\\winston\\successes\\.28e86ca21935c7018de2d84db72a9246d216b6f8-audit.json",
+  "files": [
+    {
+      "date": 1687421776802,
+      "name": "C:\\Users\\jitun\\Desktop\\PH Level 2\\university-management-auth-service - Copy\\logs\\winston\\successes\\phu-2023-22-06-14-success.log",
+      "hash": "1e3f06d428e9c199c4800640a1e82142c2100416281c58426d8584daa5e1589d"
+    }
+  ],
+  "hashType": "sha256"
 }
