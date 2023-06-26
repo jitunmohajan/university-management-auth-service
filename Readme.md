@@ -473,3 +473,12 @@ step 1:
 ```
 yarn add http-status
 ```
+
+
+## setup password encryption
+
+step 1: install bccrypt
+```
+yarn add bcrypt
+```
+
