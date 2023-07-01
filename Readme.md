@@ -473,3 +473,50 @@ step 1:
 ```
 yarn add http-status
 ```
+
+step 2:
+```
+yarn add @types/bcrypt
+```
+
+
+## setup password encryption
+
+step 1: install bccrypt
+```
+yarn add bcrypt
+```
+
+step 2: install dependencies
+
+```
+yarn add @types/bcrypt
+```
+
+## setup json web token
+
+step 1: install json web token
+
+```
+yarn add jsonwebtoken
+```
+
+step 2: install 
+```
+yarn add @types/jsonwebtoken
+```
+
+##  setup cookie perser
+
+step 1: install cookie perser
+
+```
+yarn add cookie-parser
+```
+
+step 2: install 
+
+```
+yarn add @types/cookie-parser
+```
+
