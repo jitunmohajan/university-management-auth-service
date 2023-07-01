@@ -506,3 +506,17 @@ step 2: install
 yarn add @types/jsonwebtoken
 ```
 
+##  setup cookie perser
+
+step 1: install cookie perser
+
+```
+yarn add cookie-parser
+```
+
+step 2: install 
+
+```
+yarn add @types/cookie-parser
+```
+

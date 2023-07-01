@@ -68,7 +68,7 @@ const refreshToken = async (token: string): Promise<IRefreshTokenResponse> => {
   const { userId } = verifiedToken;
 
   // tumi delete hye gso  kintu tumar refresh token ase
-  // checking deleted user's refresh token
+  // checking deleted user's refresh token testing working perfect way
 
   const isUserExist = await User.isUserExist(userId);
   if (!isUserExist) {
